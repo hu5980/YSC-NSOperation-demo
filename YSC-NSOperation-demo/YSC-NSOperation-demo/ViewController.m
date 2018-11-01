@@ -389,6 +389,7 @@
  * 初始化火车票数量、卖票窗口(非线程安全)、并开始卖票
  */
 - (void)initTicketStatusNotSave {
+    
     NSLog(@"currentThread---%@",[NSThread currentThread]);  // 打印当前线程
     
     self.ticketSurplusCount = 50;
