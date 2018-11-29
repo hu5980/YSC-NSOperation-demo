@@ -22,8 +22,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-//    在当前线程使用子类 NSInvocationOperation
-    [self useInvocationOperation];
+//   在当前线程使用子类 NSInvocationOperation
+//   [self useInvocationOperation];
     
 //    在其他线程使用子类 NSInvocationOperation
 //    [NSThread detachNewThreadSelector:@selector(useInvocationOperation) toTarget:self withObject:nil];
